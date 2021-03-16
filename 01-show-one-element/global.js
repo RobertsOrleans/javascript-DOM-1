@@ -14,7 +14,7 @@ window.addEventListener("load", function(){
 
   // 5. Also modify the DOM to hide the "More info..." link.
 
-  const link = document.getElementById('more_text_link')
+  const link = document.getElementById('more_text_link');
   
   link.addEventListener('click', function(e){
     e.preventDefault();
